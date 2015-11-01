@@ -34,4 +34,7 @@ ul li
   position: absolute; /* Абсолютное позиционирование */
   bottom: 15px; /* Положение от нижнего края */
   right: 15px; /* Положение от правого края */ 
+  color: #d2a874;
+  font-size: 22;
+  font-family: 'Bookman Old Style','Times New Roman', Times, serif;
 }

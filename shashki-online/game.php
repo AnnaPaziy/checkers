@@ -26,7 +26,7 @@ echo '<html>
 <title>Шашки-онлайн</title>
 </head>
 
-<body style="font-family: Arial; font-size: 10px">
+<body style="font-family: Arial; font-size: 10px; background-image:url(imgs/red.jpg);background-size: 100%;">
 
 <table width="100%" id="table6" style="border-collapse: collapse">
 	<tr>
@@ -34,8 +34,8 @@ echo '<html>
 		<table width="100%" id="table7" style="border-collapse: collapse">
 			<tr>
 				<td width="151" style="font-family: arial,sans-serif">
-				<img border="0" src="imgs/logo.gif" width="151" height="37"></td>
-				<td style="background-color: #A4B7DB; font-family:arial,sans-serif"><b>&nbsp; Добро пожаловать '.$AuthorizeSession['GAMER_LOGIN'].'</b></td>
+				<img border="0" src="imgs/logo.jpg" width="151" height="57"></td>
+				<td style="background-color: #d2a874; font-family:arial,sans-serif"><b>&nbsp; Добро пожаловать '.$AuthorizeSession['GAMER_LOGIN'].'</b></td>
 			</tr>
 		</table>
 		</td>
@@ -46,7 +46,7 @@ echo '<html>
 		<p align="center"><b><font size="4" color="#A4B7DB">
 		<a href="top10.php">ТОП10&nbsp; лучших&nbsp; игроков</a></font></b></td>
 			<td width="45%" style="font-family: arial,sans-serif">
-		<table width="100%" id="table11" bgcolor="#CCFF99">
+		<table width="100%" id="table11" bgcolor="#d2a874">
 			<tr>
 				<td>
 				<form method="POST" enctype="windows-1251" action="gameprocess.php?create=1">
@@ -93,13 +93,13 @@ echo '<html>
 		<div align="center">
 			<table width="55%" id="table8">
 				<tr>
-					<td colspan="3" bgcolor="#ECECFF">
+					<td colspan="3" bgcolor="#d2a874">
 					<p align="center">Игры&nbsp; доступные на сервере</td>
 				</tr>
 				<tr>
-					<td width="38%" bgcolor="#A4B7DB"><font size="2">Хозяин  игры</font></td>
-					<td width="33%" bgcolor="#A4B7DB"><font size="2">Шашки хозяина игры</font></td>
-					<td width="25%" bgcolor="#A4B7DB"><font size="2">
+					<td width="38%" bgcolor="#d2a874"><font size="2">Хозяин  игры</font></td>
+					<td width="33%" bgcolor="#d2a874"><font size="2">Шашки хозяина игры</font></td>
+					<td width="25%" bgcolor="#d2a874"><font size="2">
 					Присоединиться</font></td>
 				</tr>';
 			   /*Соединяемся  с сервером*/
