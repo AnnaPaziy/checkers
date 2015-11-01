@@ -1,0 +1,37 @@
+html,body
+{
+  margin:0;
+  padding:0;
+  background-image:url(imgs/1.png); 
+  background-size: 100%;
+  position: relative;
+}
+#container
+{
+  left:10%;
+  width: 80%;
+  margin: auto;
+   
+}
+#text div
+{
+  padding:20px;
+ 
+}
+ul
+{
+  margin:0;
+}
+ul li
+{
+  list-style-type:none;
+  font-weight:600;
+}
+#forma
+{
+ /* background-color: black;*/
+  background-size: contain;
+  position: absolute; /* Абсолютное позиционирование */
+  bottom: 15px; /* Положение от нижнего края */
+  right: 15px; /* Положение от правого края */ 
+}
